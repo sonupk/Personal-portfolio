@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+ :root {
+  --color-background:#061244;
+  --color-white:#ffffff;
+  --color-black:#000000;
+  --color-orange:#FD8031;
+  --color-assh: #ECEDF7;
+  --color-dullBlack:#656b6c
+ }
+
+}
+.rectangle {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 3.1px;
+  height: 50%;
+  background-color: black; /* Adjust the color as needed */
+  transform: rotate(-70deg);
+  transform-origin: top left;
+}
