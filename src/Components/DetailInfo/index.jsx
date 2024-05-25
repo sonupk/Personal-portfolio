@@ -10,9 +10,9 @@ const DetailInfo = () => {
   return (
     <div className="px-[15px] pt-[10px] text-backgroundWhite">
       <div className="flex flex-col gap-[8px]">
-        <h1 className="text-[32px] font-medium">Sonu Dear</h1>
+        <h1 className="text-[32px] font-medium">Sonu Kamble</h1>
         <h3 className="  text-[14px]">STACKLAB.IN</h3>
-        <h3 className=" font-bold">Business Development Executive</h3>
+        <h3 className=" font-bold">FullStack Developer</h3>
       </div>
 
       <div className="flex gap-[8px] my-[15px]">
